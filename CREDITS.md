@@ -1,6 +1,18 @@
 # Créditos — Agro Repuestos Olavarría (demo de Nodo Ventas)
 
 Logo: sitio oficial agrorepuestosolavarria.com (agrorespuestos-logo.png), versión blanca para fondo oscuro.
+Foto principal: foto del equipo en el local, publicada en agrorepuestosolavarria.com/momentos-que-dan-gusto/ («Equipo Agro Repuestos Olavarría 2»). Se reemplazó la og:image anterior (Reparacion-tractor-agrorepuestos-olavarria.jpeg), de aspecto de banco de imágenes.
+Colores: azul del logo #004474. Fotos de productos de ejemplo: Unsplash, Licencia Unsplash.
+
+Esta página es una demo de Nodo Ventas. No es el sitio oficial de Agro Repuestos Olavarría. Horarios, productos y precios son de ejemplo.
+
+---
+
+## Créditos del sitio base
+
+# Créditos — Agro Repuestos Olavarría (demo de Nodo Ventas)
+
+Logo: sitio oficial agrorepuestosolavarria.com (agrorespuestos-logo.png), versión blanca para fondo oscuro.
 Foto principal: imagen publicada en su sitio (og:image, Reparacion-tractor-agrorepuestos-olavarria.jpeg).
 Colores: azul del logo #004474. Fotos de productos de ejemplo: Unsplash, Licencia Unsplash.
 

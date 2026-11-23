@@ -74,10 +74,10 @@
 
   function stockLabel(n) {
     n = Number(n) || 0;
-    if (n <= 0) return { text: "Sin stock", cls: "out" };
+    if (n <= 0) return { text: "No disponible", cls: "out" };
     if (n <= 8) return { text: "Pocas unidades", cls: "low" };
-    if (n <= 25) return { text: "Stock medio", cls: "ok" };
-    return { text: "Buen stock", cls: "ok" };
+    if (n <= 25) return { text: "Disponible", cls: "ok" };
+    return { text: "Disponible", cls: "ok" };
   }
 
   function session() {

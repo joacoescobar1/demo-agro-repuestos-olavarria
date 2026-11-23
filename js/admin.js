@@ -79,7 +79,7 @@
       pending = parsed.rows;
       $("import-msg").textContent = `Listo para importar ${parsed.rows.length} filas. Revisá la vista previa y confirmá.`;
       $("import-preview").innerHTML = parsed.rows.slice(0, 8).map((r) =>
-        `<tr><td class="mono">${r.codigo}</td><td>${r.nombre}</td><td>${r.marca}</td><td>${RDN.money(r.precio_mostrador)}</td><td>${r.stock}</td></tr>`
+        `<tr><td class="mono">${r.codigo}</td><td>${r.nombre}</td><td>${r.marca}</td><td>${RDN.money(r.precio_mostrador)}</td><td>${r.unidad || ""}</td></tr>`
       ).join("");
       $("btn-apply").disabled = false;
     };

@@ -48,10 +48,10 @@
           <h3>${esc(p.nombre)}</h3>
           <div class="meta">${esc(p.marca)} · ${esc(p.unidad)}</div>
           <div class="price-row"><span class="price">${RDN.money(price)}</span>${price !== base ? `<span class="was">${RDN.money(base)}</span>` : ""}</div>
-          <div class="stock ${st.cls}">${st.text}</div>
+          
           <div class="qtyrow">
             <div class="stepper"><button type="button" data-step="-1" aria-label="Menos" ${out ? "disabled" : ""}>−</button><input type="number" min="1" max="${Math.max(1, p.stock)}" value="1" aria-label="Cantidad" ${out ? "disabled" : ""}><button type="button" data-step="1" aria-label="Más" ${out ? "disabled" : ""}>+</button></div>
-            <button class="btn btn-primary" type="button" data-add="${esc(p.codigo)}" ${out ? "disabled" : ""}>${out ? "Sin stock" : "Agregar"}</button>
+            <button class="btn btn-primary" type="button" data-add="${esc(p.codigo)}" ${out ? "disabled" : ""}>${out ? "Agregar" : "Agregar"}</button>
           </div>
         </div>
       </article>`;
